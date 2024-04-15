@@ -43,6 +43,7 @@ type storeData struct {
 	funcNew   []funcNewEntry
 	funcWrap  []funcWrapEntry
 	lastPanic interface{}
+	data      any
 }
 
 type funcNewEntry struct {
