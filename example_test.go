@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bytecodealliance/wasmtime-go/v19"
+	"github.com/dboehm-avalabs/wasmtime-go/v1"
 )
 
 // Example of limiting a WebAssembly function's runtime using "fuel consumption".
