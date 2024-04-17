@@ -3,14 +3,13 @@ package wasmtime_test
 import (
 	"errors"
 	"fmt"
+	"github.com/dboehm-avalabs/wasmtime-go/v19"
 	"log"
 	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
 	"time"
-
-	"github.com/dboehm-avalabs/wasmtime-go/v1"
 )
 
 // Example of limiting a WebAssembly function's runtime using "fuel consumption".

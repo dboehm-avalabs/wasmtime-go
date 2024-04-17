@@ -1,4 +1,4 @@
-module github.com/dboehm-avalabs/wasmtime-go
+module github.com/dboehm-avalabs/wasmtime-go/v19
 
 go 1.21
 
